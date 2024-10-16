@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('topi.jpg'); /* Set your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; 
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+h1, p{
+    color: white;
+}
+
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+main .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+main .content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+main .buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 100px;
+}
+
+main .buttons button:hover {
+    background-color: #f0f0f0;
+}
+a{
+    text-decoration:none;
+}
+
